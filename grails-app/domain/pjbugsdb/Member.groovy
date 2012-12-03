@@ -13,5 +13,7 @@ class Member {
     String siteUsername
 
     static constraints = {
+        forename()
+        surname()
     }
 }
