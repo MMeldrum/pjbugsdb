@@ -45,6 +45,7 @@ body {
 
 #grailsLogo {
 	background-color: #abbf78;
+    background-image: url(../images/ladybug.jpg);
 }
 
 /* replace with .no-boxshadow body if you have modernizr available */
