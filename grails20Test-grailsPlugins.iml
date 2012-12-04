@@ -7,9 +7,8 @@
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-1.7.1/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-ui-0.2/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-ui-0.2/grails-app/views" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/mail-1.0.1/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/sendgrid-0.4/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/famfamfam-1.0.1/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-ui-1.8.24/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -37,22 +36,18 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-1.7.1/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-1.7.1/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-ui-1.8.24">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-ui-1.8.24/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-ui-1.8.24/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/mail-1.0.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/mail-1.0.1/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/mail-1.0.1/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/mail-1.0.1/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/mail-1.0.1/grails-app/taglib" isTestSource="false" />
-    </content>
     <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5">
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5/src/java" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5/grails-app/taglib" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/sendgrid-0.4">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/sendgrid-0.4/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/sendgrid-0.4/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/sendgrid-0.4/grails-app/services" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spock-0.6" />
     <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-core-1.2.7.3">
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-core-1.2.7.3/src/java" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-core-1.2.7.3/src/groovy" isTestSource="false" />
@@ -156,9 +151,16 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-juli/jars/tomcat-embed-logging-juli-7.0.30.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat/tomcat-catalina-ant/jars/tomcat-catalina-ant-7.0.30.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework/spring-test/jars/spring-test-3.1.0.RELEASE.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.activation/activation/jars/activation-1.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.mail/mail/jars/mail-1.4.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.gmock/gmock/jars/gmock-0.8.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xml-resolver/xml-resolver/jars/xml-resolver-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xerces/xercesImpl/jars/xercesImpl-2.8.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.ezmorph/ezmorph/jars/ezmorph-1.0.6.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sf.json-lib/json-lib/jars/json-lib-2.3-jdk15.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.codehaus.groovy.modules.http-builder/http-builder/jars/http-builder-0.5.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

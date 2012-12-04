@@ -70,6 +70,11 @@ environments {
     }
 }
 
+sendgrid {
+    username = 'app9697340@heroku.com'
+    password = 'xhlmuovb'
+}
+
 // log4j configuration
 log4j = {
     // Example of changing the log pattern for the default console

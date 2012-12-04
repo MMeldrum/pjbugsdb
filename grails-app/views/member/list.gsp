@@ -11,7 +11,8 @@
 		<a href="#list-member" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
+                <li><a class="logout" href="${createLink(uri: '/logout')}"><g:message code="default.logout.label"/></a></li>
+                <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
 				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
 			</ul>
 		</div>
@@ -48,9 +49,9 @@
 					
 						<td><g:link action="show" id="${memberInstance.id}">${fieldValue(bean: memberInstance, field: "email")}</g:link></td>
 					
-						<td><g:formatDate date="${memberInstance.joinedOn}" /></td>
+						<td><g:formatDate format="dd-MMM-yyyy" date="${memberInstance.joinedOn}" /></td>
 					
-						<td><g:formatDate date="${memberInstance.dateOfBirth}" /></td>
+						<td><g:formatDate format="dd-MMM-yyyy" date="${memberInstance.dateOfBirth}" /></td>
 					
 						<td>${fieldValue(bean: memberInstance, field: "country")}</td>
 					

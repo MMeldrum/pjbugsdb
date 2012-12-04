@@ -181,14 +181,18 @@ img {
 	text-decoration: underline;
 }
 
-.nav a.home, .nav a.list, .nav a.create {
+.nav a.home, .nav a.list, .nav a.create, .nav a.logout {
 	background-position: 0.7em center;
 	background-repeat: no-repeat;
 	text-indent: 25px;
 }
 
 .nav a.home {
-	background-image: url(../images/skin/house.png);
+    background-image: url(../images/skin/house.png);
+}
+
+.nav a.logout {
+    background-image: url(../images/skin/house_go.png);
 }
 
 .nav a.list {
