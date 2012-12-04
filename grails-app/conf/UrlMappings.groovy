@@ -8,7 +8,6 @@ class UrlMappings {
 		}
 
         "/"(controller:"member")
-		"/"(view:"/index")
 		"500"(view:'/error')
 	}
 }

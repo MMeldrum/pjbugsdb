@@ -7,9 +7,6 @@
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-1.7.1/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-ui-0.2/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-ui-0.2/grails-app/views" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/countries-0.4/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/countries-0.4/grails-app/views" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/build-test-data-2.0.3/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -25,18 +22,6 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/build-test-data-2.0.3">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/build-test-data-2.0.3/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/build-test-data-2.0.3/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/build-test-data-2.0.3/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/build-test-data-2.0.3/grails-app/services" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/countries-0.4">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/countries-0.4/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/countries-0.4/grails-app/controllers" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/countries-0.4/grails-app/domain" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/countries-0.4/grails-app/taglib" isTestSource="false" />
-    </content>
     <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/hibernate-2.1.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/hibernate-2.1.1/grails-app/i18n" isTestSource="false" />
     </content>
@@ -52,7 +37,6 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spock-0.6" />
     <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-core-1.2.7.3">
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-core-1.2.7.3/src/java" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-core-1.2.7.3/src/groovy" isTestSource="false" />
@@ -77,7 +61,6 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (grails20Test-grailsPlugins)">
         <CLASSES>
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/build-test-data-2.0.3/lib" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/opensymphony/sitemesh/jars/sitemesh-2.4.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/jars/hibernate-jpa-2.0-api-1.0.1.Final.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.transaction/jta/jars/jta-1.1.jar!/" />
@@ -154,19 +137,12 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.hibernate/hibernate-core/jars/hibernate-core-3.6.10.Final.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-jasper/jars/tomcat-embed-jasper-7.0.27.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-juli/jars/tomcat-embed-logging-juli-7.0.27.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat/tomcat-catalina-ant/jars/tomcat-catalina-ant-7.0.27.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.6.2.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.0.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-log4j/jars/tomcat-embed-logging-log4j-7.0.27.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-plugin-tomcat/jars/grails-plugin-tomcat-2.1.0.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-7.0.27.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/dk.brics.automaton/automaton/jars/automaton-1.11-8.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-juli/jars/tomcat-embed-logging-juli-7.0.30.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat/tomcat-catalina-ant/jars/tomcat-catalina-ant-7.0.30.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/build-test-data-2.0.3/lib" recursive="false" />
       </library>
     </orderEntry>
   </component>
