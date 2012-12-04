@@ -16,6 +16,9 @@ class BootStrap {
                 password: 'admin',
                 enabled: true).save(failOnError: true)
 
+        println "password"+springSecurityService.encodePassword("password")
+        println "secret"+springSecurityService.encodePassword("secret")
+
         if (!adminUser.authorities.contains(adminRole)) {
             SecUserSecRole.create adminUser, adminRole
             SecUserSecRole.create adminUser, userRole

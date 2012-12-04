@@ -18,7 +18,7 @@ class Member {
         email email: true, blank: false
         joinedOn()
         dateOfBirth()
-        country()
+        country blank: false
         region()
         siteUsername()
         siteUserpage: boolean

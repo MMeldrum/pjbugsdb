@@ -40,12 +40,12 @@
 	<g:datePicker name="dateOfBirth" precision="day"  value="${memberInstance?.dateOfBirth}"  />
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: memberInstance, field: 'country', 'error')} ">
+<div class="fieldcontain ${hasErrors(bean: memberInstance, field: 'country', 'error')} required">
 	<label for="country">
 		<g:message code="member.country.label" default="Country" />
 		
 	</label>
-	<g:textField name="country" value="${memberInstance?.country}"/>
+    <g:countrySelect name="country" value="${memberInstance.country}" noSelection="['':'-Choose your country-']"/>
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: memberInstance, field: 'region', 'error')} ">
