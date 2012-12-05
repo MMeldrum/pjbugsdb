@@ -9,6 +9,7 @@
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/spring-security-ui-0.2/grails-app/views" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/sendgrid-0.4/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/famfamfam-1.0.1/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-ui-1.8.24/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -35,6 +36,10 @@
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-1.7.1/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-1.7.1/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-1.7.1/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-ui-1.8.24">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-ui-1.8.24/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/jquery-ui-1.8.24/grails-app/taglib" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5">
       <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/grails20Test/plugins/resources-1.1.5/src/java" isTestSource="false" />

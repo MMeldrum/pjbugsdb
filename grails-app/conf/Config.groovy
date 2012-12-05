@@ -101,3 +101,8 @@ log4j = {
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'pjbugsdb.SecUser'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'pjbugsdb.SecUserSecRole'
 grails.plugins.springsecurity.authority.className = 'pjbugsdb.SecRole'
+
+//grails.plugins.springsecurity.ui.register.emailBody = '...'
+
+grails.plugins.springsecurity.ui.register.emailFrom = 'do.not.reply@igotbugs.net'
+grails.plugins.springsecurity.ui.register.emailSubject = 'Bugs Data base Registration'
