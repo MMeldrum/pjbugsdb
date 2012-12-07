@@ -54,9 +54,9 @@ class BootStrap {
         if (!adminUser.authorities.contains(martinUser)) {
             SecUserSecRole.create martinUser, userRole
         }
-//        if (!adminUser.authorities.contains(mirellaUser)) {
-//            SecUserSecRole.create mirellaUser, userRole
-//        }
+        if (!adminUser.authorities.contains(mirellaUser)) {
+            SecUserSecRole.create mirellaUser, userRole
+        }
     }
 
     def destroy = {
