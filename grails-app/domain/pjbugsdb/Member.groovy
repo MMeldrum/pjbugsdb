@@ -13,14 +13,14 @@ class Member {
     String siteUsername
 
     static constraints = {
-        forename blank: false
-        surname blank: false
-        email email: true, blank: false
+        forename()
+        surname()
+        email email: true
         joinedOn()
         dateOfBirth()
-        country blank: false
-        region()
-        siteUsername()
-        siteUserpage: boolean
+        country()
+        region nullable: true
+        siteUsername nullable: true
+        siteUserpage nullable: true
     }
 }
