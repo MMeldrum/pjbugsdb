@@ -36,8 +36,9 @@
                             <s2ui:passwordFieldRow name='password2' labelCode='user.password2.label' bean="${command}"
                                                  size='40' labelCodeDefault='Password (again)' value="${command.password2}"/>
                         </p>
-                        <s2ui:submitButton elementId='create' form='registerForm' messageCode='spring.security.ui.register.submit'/>
-
+                        <fieldset class="buttons">
+                            <s2ui:submitButton elementId='create' form='registerForm' messageCode='spring.security.ui.register.submit'/>
+                        </fieldset>
                     </g:else>
 
                 </g:form>
