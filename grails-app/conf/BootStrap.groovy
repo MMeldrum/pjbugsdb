@@ -22,7 +22,7 @@ class BootStrap {
 
         def adminUser = SecUser.findByUsername('admin') ?: new SecUser(
                 username: 'admin',
-                password: 'admin',
+                password: 'password',
                 firstName: 'Admin',
                 lastName: 'User',
                 email: 'admin@igotbugs.net',

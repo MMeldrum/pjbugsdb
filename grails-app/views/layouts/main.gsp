@@ -19,7 +19,7 @@
 	</head>
 	<body>
 		<div id="grailsLogo" role="banner">
-            <a href="http://grails.org">
+            <a href="http://database.igotbugs.net">
                 <img src="${resource(dir: 'images', file: 'bugs0000.jpg')}" alt="Grails"/>
             </a>
         </div>
