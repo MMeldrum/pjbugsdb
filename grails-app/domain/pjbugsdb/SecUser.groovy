@@ -14,12 +14,12 @@ class SecUser {
     boolean accountLocked
     boolean passwordExpired
 
-    Member member
+//    Member member
 
     static constraints = {
         username unique: true
         email email: true
-        member nullable: true
+//        member nullable: true
     }
 
     static mapping = {

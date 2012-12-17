@@ -23,17 +23,17 @@ class MemberController {
         }
 
         if (!foundAdmin) {
-            if (springSecurityService.currentUser.member){
-                params.id = springSecurityService.currentUser.member?.id
-                params.action = "show"
-                println "you are member id "+params.id
-                redirect(action: "show", params: params)
-            } else {
-                println "add member!"
-                redirect(action: "create", params: params)
-            }
-        } else {
-            println "you're admin - here's the list"
+//            if (springSecurityService.currentUser.member){
+//                params.id = springSecurityService.currentUser.member?.id
+//                params.action = "show"
+//                println "you are member id "+params.id
+//                redirect(action: "show", params: params)
+//            } else {
+//                println "add member!"
+//                redirect(action: "create", params: params)
+//            }
+//        } else {
+//            println "you're admin - here's the list"
             redirect(action: "list", params: params)
         }
     }
@@ -128,7 +128,7 @@ class MemberController {
         try {
             def secuser = SecUser.findByMember(memberInstance)
             if (secuser != null){
-                secuser.member = null
+//                secuser.member = null
                 secuser.save(flush: true)
             }
             memberInstance.delete(flush: true)

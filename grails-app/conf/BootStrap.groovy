@@ -26,7 +26,7 @@ class BootStrap {
                 firstName: 'Admin',
                 lastName: 'User',
                 email: 'admin@igotbugs.net',
-                member:  null,
+//                member:  null,
                 enabled: true).save(failOnError: true)
 
 //        def martinUser = SecUser.findByUsername('martin') ?: new SecUser(
