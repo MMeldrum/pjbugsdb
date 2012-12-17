@@ -8,19 +8,19 @@ class SecUser {
     String password
     boolean enabled
     String email
-    String firstName
-    String lastName
+//    String firstName
+//    String lastName
     boolean accountExpired
     boolean accountLocked
     boolean passwordExpired
 
 //    Member member
 
-    static constraints = {
-        username unique: true
-        email email: true
+//    static constraints = {
+//        username unique: true
+//        email email: true
 //        member nullable: true
-    }
+//    }
 
     static mapping = {
         password column: '`password`'
