@@ -53,7 +53,7 @@
 					
 						<td><g:formatDate format="dd-MMM-yyyy" date="${memberInstance.dateOfBirth}" /></td>
 					
-						<td>${fieldValue(bean: memberInstance, field: "country")}</td>
+						<td><g:country code="${memberInstance.country}"/></td>
 					
 					</tr>
 				</g:each>
