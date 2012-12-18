@@ -52,8 +52,9 @@ class MemberController {
     @Secured(['ROLE_USER'])
     def save() {
         def memberInstance = new Member(params)
-        springSecurityService.currentUser.member = memberInstance
-        if (!memberInstance.save(flush: true)||!springSecurityService.currentUser.save(flush: true)) {
+//        springSecurityService.currentUser.member = memberInstance
+//        if (!memberInstance.save(flush: true)||!springSecurityService.currentUser.save(flush: true)) {
+        if (!memberInstance.save(flush: true)) {
             render(view: "create", model: [memberInstance: memberInstance])
             return
         }
