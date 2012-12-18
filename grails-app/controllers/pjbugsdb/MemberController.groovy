@@ -22,7 +22,7 @@ class MemberController {
             }
         }
 
-        if (!foundAdmin) {
+//        if (!foundAdmin) {
 //            if (springSecurityService.currentUser.member){
 //                params.id = springSecurityService.currentUser.member?.id
 //                params.action = "show"
@@ -35,7 +35,7 @@ class MemberController {
 //        } else {
 //            println "you're admin - here's the list"
             redirect(action: "list", params: params)
-        }
+//        }
     }
 
     @Secured(['ROLE_ADMIN'])
